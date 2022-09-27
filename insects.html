@@ -13,6 +13,24 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>  
+              <div class="collapse navbar-collapse" id="navbar-toggler">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="basic.html">BASIC</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="advanced.html">ADVANCED</a>
+                  </li>
+                </ul>
+              </div> 
+            </div>
+          </nav>
         <h1 style="font-style: italic;">Insects by Tejaswini Kattukuri</h1> 
         <div class="container">
             <div class="row">
@@ -47,5 +65,137 @@
     <img src="TigerBeetles.jpg"class="img-thumbnail"  alt="Tigerbeetles">
     
   </div>
+
+  <table class="table table-hover table-bordered caption-top table-responsive table-sm table-info">
+    <caption>Table containing list of Insects, Cities and Rivers</caption>
+    <thead class="table-active">
+      <tr>
+        <th scope="col">Letter</th>
+        <th scope="col">Insect</th>
+        <th scope="col">River</th>
+        <th scope="col">City</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-light">
+        <th scope="row">K</th>
+        <td>Kamehameha Butterfly</td>
+        <td>Kansas River</td>
+        <td>Kansas </td>
+      </tr>
+      <tr class="table-success">
+        <th scope="row">A</th>
+        <td>Army Ants</td>
+        <td>Alagnak River</td>
+        <td>Alaska</td>
+      </tr>
+      <tr class="table-warning">
+        <th scope="row">T</th>
+        <td>Tiger Beetles</td>
+        <td> Texas River</td>
+        <td>Texas</td>
+        </tr>
+        <tr class="table-secoondary">
+          <th scope="row">T</th>
+          <td>True bugs</td>
+          <td>Telangana River</td>
+          <td>Telangana</td>
+          </tr>
+          <tr class="table-primary">
+            <th scope="row">U</th>
+            <td>Urania moths</td>
+            <td>Udaipur River</td>
+            <td>Udaipur</td>
+            </tr>
+          <tr class="table-info">
+              <th scope="row">K</th>
+              <td>Killer wasp</td>
+              <td>Kaveri River</td>
+              <td>Kanpur</td>
+          </tr>
+    </tbody>
+  </table>
+  <label>BUTTONS:</label>
+  <br>
+  <button class="btn">K</button>
+  <button class="btn">A</button>
+  <button class="btn">T</button>
+  <button class="btn">T</button>
+  <button class="btn">U</button>
+  <button class="btn">K</button>
+  <br>
+  <label>BUTTON GROUPS:</label>
+  <br>
+  <div>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group me-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-success">K</button>
+        <button type="button" class="btn btn-success">A</button>
+        <button type="button" class="btn btn-success">T</button>
+      </div>
+    <div class="btn-group me-2" role="group" aria-label="Second group">
+      <button type="button" class="btn btn-warning">T</button>
+      <button type="button" class="btn btn-warning">U</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="Third group">
+      <button type="button" class="btn btn-danger">K</button>
+    </div>
+  </div>
+  </div>
+  <br>
+  <div class="dropdown">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown button
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+      <li><a class="dropdown-item" href="advanced.html">Advance</a></li>
+    </ul>
+  </div>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" placeholder="Enter your email address:" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="form-group">
+      <label for="insects" class="form-label">Insects</label>
+      <input type="text" placeholder="Enter insects name:" class="form-control" for="insects">
+      <div id="insectsChoice" class="form-text">Enter your Insect.</div>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <br>
+  <div class="row">
+    <div class="card" style="width: 18rem;">
+      <img src="KamehamehaButterfly.jpg" class="card-img-top" alt="Kamehameha butterfly">
+      <div class="card-body">
+        <h5 class="card-title">Kamehameha butterfly</h5>
+        <p class="card-text">The Kamehameha butterfly (Vanessa tameamea) is one of the two species of butterfly endemic to Hawaii, the other is Udara blackburni.</p>
+        <a href="https://en.wikipedia.org/wiki/Kamehameha_butterfly" class="btn btn-primary">About</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="ArmyAnts.jpg" class="card-img-top" alt="Army Ants">
+      <div class="card-body">
+        <h5 class="card-title">Army Ants</h5>
+        <p class="card-text">The name army ant (or legionary ant or marabunta) is applied to over 200 ant species in different lineages. Because of their aggressive predatory foraging groups, known as "raids", a huge number of ants forage simultaneously over a limited area.</p>
+        <a href="https://en.wikipedia.org/wiki/Army_ant" class="btn btn-primary">About</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="TigerBeetles.jpg" class="card-img-top" alt="Tiger beetles">
+      <div class="card-body">
+        <h5 class="card-title">rice Weevil</h5>
+        <p class="card-text">Tiger beetles are a large group of beetles, from the Cicindelinae subfamily, known for their aggressive predatory habits and running speed.</p>
+        <a href="https://en.wikipedia.org/wiki/Tiger_beetle" class="btn btn-primary">About</a>
+      </div>
+    </div>
+  </div>
+  
     </body>
 </html>
